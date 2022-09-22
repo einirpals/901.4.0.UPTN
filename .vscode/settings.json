@@ -1,0 +1,109 @@
+{
+// Automatically number the scenes each time you save the document
+"fountain.general.numberScenesOnSave": true,
+
+// Automatically skip to the next line if the caret is just before the last parenthesis within a parenthetical (as such❚). If you are using a vim emulator, you should disable this setting - an [issue with vscode](https://github.com/Microsoft/vscode/issues/13441) means it is impossible for two extensions to simultaneously intercept typing.
+"fountain.general.parentheticalNewLineHelper": true,
+
+// Noise texture on the live preview (absent from PDF)
+"fountain.general.previewTexture": true,
+
+// The theme to be used in the live preview
+"fountain.general.previewTheme": "paper",
+
+// Automatically refresh the statistics panel each time you save the document
+"fountain.general.refreshStatisticsOnSave": false,
+
+// Automatically synchronize preview and text editor position
+"fountain.general.synchronizedMarkupAndPreview": true,
+
+// Create bookmarks for each section/scene
+"fountain.pdf.createBookmarks": true,
+
+// Double the space between scenes
+"fountain.pdf.doubleSpaceBetweenScenes": false,
+
+// Systematically break page after a scene
+"fountain.pdf.eachSceneOnNewPage": false,
+
+// Make character names bold
+"fountain.pdf.emboldenCharacterNames": false,
+
+// Make scene headers bold
+"fountain.pdf.emboldenSceneHeaders": true,
+
+// If `fountain.pdf.printSections` is false, add a bookmark for the section to the following scene header instead
+"fountain.pdf.invisibleSectionBookmarks": true,
+
+// Merge multiple empty lines
+"fountain.pdf.mergeEmptyLines": true,
+
+// Automatically number sections
+"fountain.pdf.numberSections": true,
+
+// Text to be inserted at the bottom of each page
+"fountain.pdf.pageFooter": "",
+
+// Text to be inserted at the top of each page
+"fountain.pdf.pageHeader": "",
+
+// Print action blocks
+"fountain.pdf.printActions": true,
+
+// Print dialogue
+"fountain.pdf.printDialogues": true,
+
+// Print scene headers
+"fountain.pdf.printHeaders": true,
+
+// Print notes (text enclosed between [[two brackets]])
+"fountain.pdf.printNotes": false,
+
+// The printing dimensions
+"fountain.pdf.printProfile": "a4",
+
+// Print sections (marked with #)
+"fountain.pdf.printSections": false,
+
+// Print synopsis (marked with =)
+"fountain.pdf.printSynopsis": false,
+
+// Print the title page
+"fountain.pdf.printTitlePage": true,
+
+// Display `(CONTINUED)` at the bottom of pages where a scene is cut by a page break.
+"fountain.pdf.sceneContinuationBottom": false,
+
+// Display `CONTINUED:` at the top of pages where a scene is split by a page break. If `fountain.pdf.sceneNumbers` is enabled, the scene number will be included (eg `12A CONTINUED:)`
+"fountain.pdf.sceneContinuationTop": false,
+
+// Location of scene numbers
+"fountain.pdf.sceneNumbers": "none",
+
+// Show dialogue numbers in preview and PDF
+"fountain.pdf.showDialogueNumbers": true,
+
+// Show page numbers
+"fountain.pdf.showPageNumbers": true,
+
+// Split dialog between pages
+"fountain.pdf.splitDialog": true,
+
+// Text to print by a character's name when continuing dialogue after a page break - "(CONT'D)" in English.
+"fountain.pdf.textCONTD": "(CONT'D)",
+
+// Text to print when dialogue is cut before a page break - "(MORE)" in English.
+"fountain.pdf.textMORE": "(MORE)",
+
+// Text to print if `fountain.pdf.sceneContinuationTop#` or `#fountain.pdf.sceneContinuationBottom` are enabled - `CONTINUED` in English.
+"fountain.pdf.textSceneContinued": "CONTINUED",
+
+// Print dual dialogue in two columns
+"fountain.pdf.useDualDialogue": true,
+
+// Watermark displayed across each page
+"fountain.pdf.watermark": "",
+
+// Controls if directory selector should be shown.
+"fileutils.typeahead.enabled": true,
+}
